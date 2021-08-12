@@ -1,0 +1,21 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    background-color:lightcoral;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    width: 595px;
+     margin-left: 370px;
+    margin-top: 20px;
+    
+    
+}
+div{
+    background-image: url("../../assets/images/quiz.jpg") ;
+    margin-top: -20px;
+    background-attachment: fixed;
+    
+}

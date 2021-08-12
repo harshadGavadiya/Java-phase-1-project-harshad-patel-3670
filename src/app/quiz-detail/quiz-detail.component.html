@@ -1,0 +1,38 @@
+<div class="main">
+    <div class="container">
+
+        <div class="container center">
+            <form #questionform="ngForm" (ngSubmit)="submitData(questionform)">
+
+                <div class="form-check " *ngFor='let item of requstService; let i = index'>
+                    <span class="inline">{{item.id}}) {{item.question}}</span>
+                    <div class="radio"> <br><input type="radio" class="form-check-input" name="question{{i}}"
+                            value={{item.op1}} ngModel required #name="ngModel" />{{item.op1}}
+                        <br><input type="radio" class="form-check-input" name="question{{i}}" value={{item.op2}} ngModel
+                            required #name="ngModel" />{{item.op2}}
+                        <br><input type="radio" class="form-check-input" name="question{{i}}" value={{item.op3}} ngModel
+                            required #name="ngModel" />{{item.op3}}
+                        <br><input type="radio" class="form-check-input" name="question{{i}}" value={{item.op4}} ngModel
+                            required #name="ngModel" />{{item.op4}}<br><br>
+                    </div>
+
+                    <div *ngIf="formValidated && item.ans === name.value" class="alert alert-success alert">
+                        Answer is correct.
+                    </div>
+                    <div *ngIf="formValidated && item.ans !== name.value" class="alert alert-danger alert">
+                        Answer is incorrect.
+                    </div>
+                </div>
+                <div *ngIf='score>0' class="alert alert-primary">
+                    <h4>Congratulation! Your Score is: {{score}}%</h4>
+                </div>
+
+                <button type="submit" class='btn btn-primary col-4  review' [disabled]='questionform.invalid'
+                    value="submit">Review</button>
+                <button class="btn btn-success col-4 score " (click)="scoredata()"
+                    [disabled]='questionform.invalid'>Result</button>
+
+            </form>
+
+        </div>
+    </div>

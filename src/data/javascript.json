@@ -1,0 +1,53 @@
+{
+   "questions" :[
+           {
+            "id": 1,
+            "question": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "op1": "Generator Functions",
+            "op2": "Arrow Functions",
+            "op3": "Template Strings",
+            "op4": "Set Data Structure",
+            "ans": "Template Strings"
+
+           },
+           {
+            "id": 2,
+            "question": "Which built-in method calls a function for each element in the array?",
+            "op1": "while()",
+            "op2": "loop",
+            "op3": "forEach",
+            "op4": "takeUntil",
+            "ans": "loop"
+           },
+           {
+                "id": 3,
+                "question": "What is the difference between let and var?",
+                "op1": "let has local scope",
+                "op2": "Both are same",
+                "op3": "var is new data type",
+                "op4": "let consumes more cpu and ram",
+                "ans": "let has local scope"
+
+           },
+           {
+                "id": 4,
+                "question": "What is TypeScript?",
+                "op1": "A Language based on Javascript",
+                "op2": "script that runs on browser",
+                "op3": "A DataType Collection of Javascript",
+                "op4": "None of the above",
+                "ans":  "A Language based on Javascript"
+           },
+           {
+                "id": 5,
+                "question": "Which of the following is right syntex for arrow function?",
+                "op1": "a -> { return b; }",
+                "op2":  "x <= x + y;",
+                "op3": "x <- x + 5;",
+                "op4": "x => x + 5;",
+                "ans": "x => x + 5;"
+           
+
+           }
+   ]
+}

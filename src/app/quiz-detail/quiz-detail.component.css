@@ -1,0 +1,52 @@
+.center{
+    /* background-image: url("../../assets/images/quiz.jpg") ; */
+    background-color:lightblue;
+    font-weight: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 250px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: -10px;
+    
+
+}
+.inline{
+    font-size: large;
+    color:maroon;
+    
+}
+.review{
+    margin-left: 90px;
+    
+}
+.score{
+    margin: 10px;
+    
+}
+h3{
+    margin-left: 350px;
+    color:indigo(68, 64, 64);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.radio{
+    padding-left: 40px;
+    margin-top: -15px;
+    color: green;
+}
+.main{
+    background-image: url("../../assets/images/quiz4.jpg") ;
+     background-attachment: fixed;
+}
+h4{
+    padding-left: 70px;
+}
+.alert{
+    border-radius: 15px;
+    margin: -10px 0px 8px -8px;
+}
+.alert-primary{
+    margin-top: 10px;
+}
+.container{
+    padding: 10px;
+}
